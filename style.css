@@ -1,0 +1,439 @@
+
+/* Main Elements CSS */
+
+body {
+font-family: "Cormorant", "Epilogue", sans-serif;
+font-size: 30px;
+color: #F2E2CE;
+padding: 1em;
+background-color: #40201D
+}
+
+h1{
+  line-height: 0px;
+  font-weight: 100;
+}
+
+.dropdown-menu{
+  text-align: right;
+  right: 0;
+  margin-right: 50px;
+  margin-top:0;
+  position: fixed;
+  display: inline-block;
+}
+
+.dropdown-menu:hover .dropdown-menu-content{
+  display: block;
+  background-color: #40201D;
+}
+
+.dropdown-menu-style{
+  text-transform: uppercase;
+  background: none;
+  border:none;
+  color:#A8B2BF;
+  margin-top: 0;
+  font-size: 40px;
+  cursor: pointer;
+}
+
+.dropdown-menu-content{
+  display: none;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  color: #A8B2BF;
+  width: 150px;
+  z-index: 1;
+  font-size: 20px;
+}
+
+.dropdown-menu-content a{
+  display: block;
+  color: #A8B2BF;
+  padding: 10px;
+  text-decoration: none;
+
+}
+
+.dropdown-menu-content a:hover{
+  background-color: #A6450D;
+  fill-opacity: 0.25;
+  color: #A8B2BF;
+}
+
+
+#footer-container{
+  position: relative;
+  display: flex;
+  height: 0px;
+  width: 100%;
+  font-size: 18px;
+}
+
+
+.copyright{
+  flex: 1;
+  position: fixed;
+  width: 100%;
+  line-height: 0px;
+  text-align: left;
+  bottom: 0;
+}
+
+.image-source{
+  flex: 1;
+  position: fixed;
+  font-size: 8px;
+  margin-right: 5px;
+  text-align: right;
+  width: 95%;
+  line-height: 0px;
+  bottom: 0;
+}
+
+
+/*Individ Elements CSS: Index*/
+
+.name {
+  color: #F2E2CE;
+  font-style: normal;
+  font-size: 70px;
+  position: relative;
+  display: inline-block;
+  margin-top:20px;
+  margin-bottom: 0;
+}
+
+.name:hover{
+  color: #C45210;
+  font-style: italic;
+  margin-top:20px;
+  margin-bottom: 0;
+}
+
+.name:hover .choose{
+  opacity: 1;
+}
+
+.choose {
+  opacity: 0;
+  font-size: 50px;
+  color: #C45210;
+  font-style: italic;
+  padding: 0;
+  margin-top: 20px;
+}
+
+
+.copywriter{
+  font-size: 20px;
+  font-style: italic;
+}
+
+nav{
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  }
+
+.vertical-menu{
+  list-style-type: none;
+  font-size: 45px;
+  padding-top: 3.5em;
+  padding-bottom: 1em;
+  width: 100%;
+  
+}
+
+.vertical-menu li{
+  line-height: 60px;
+  position: relative;
+}
+
+.vertical-menu a{
+  display: block;
+  text-decoration: none;
+  color: #F2E2CE;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.vertical-menu a:hover{
+  color: #C45210;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.vertical-menu a img{
+  position: absolute;
+  opacity: 0;
+}
+
+.vertical-menu a:hover img{
+  opacity: 1; 
+  transform: translate(50px, -300px);
+}
+
+.ford-image a:hover img{
+  transform: translate(40px, -300px);
+  overflow: visible;
+}
+
+.about-image a:hover img{
+  transform: translate(400px, -400px);
+}
+
+.punk-image a:hover img{
+  transform: translate(-200px, -400px)
+}
+
+
+
+/*Subpages*/
+
+table{
+  table-layout: fixed;
+  width: 100%;
+  padding-top: 1em;
+
+}
+
+.column-topmargin{
+  vertical-align: top;
+}
+
+.description{
+  text-align: left;
+  font-size: 28px;
+  margin-left: 10px;
+  margin-right: 20px;
+  margin-top: 0;
+  margin-bottom:5px;
+  padding-bottom: 1em;
+  padding-right: 1em;
+  overflow-wrap: break-word;
+
+}
+
+.video-border{
+  border: none;
+}
+
+hr{
+  width:50%;
+  margin:0;
+  color: #99A2B9;
+  padding-bottom: 0em;
+  margin-bottom:0;
+}
+
+/*Individ Elements CSS: Ford*/
+
+.ford-divider{
+  border: none;
+  border-top: 2px solid;
+  width: 70%;
+}
+
+.ford-divider-2{
+  border: none;
+  border-top: 2px solid;
+  padding-right: 5em;
+  margin-top: 5px;
+  padding-bottom: 0;
+  margin-bottom: 20px;
+}
+
+.ford-container{
+  display: inline-block;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 50px;
+}
+
+.ford-role{
+  color: #F2E2CE;
+  font-style: normal;
+  font-size: 30px;
+  position: relative;
+  margin-bottom: 0;
+  margin-top: 10px;
+}
+
+.ford-container:hover .ford-role{
+  color: #C45210;
+  font-style: italic;
+  width: 100%;
+}
+
+.ford-container:hover .ford-list{
+  opacity: 1;
+}
+
+
+.ford-list{
+  list-style-type: none;
+  margin-top: 0;
+  padding-top:0;
+  font-size: 25px;
+  opacity: 0;
+  color: #C45210;
+  font-style: italic;
+}
+
+/*Individ Elements CSS: Jose Cuervo*/
+
+.jose-divider{
+  border: none;
+  border-top: 2px solid;
+  width: 70%;
+}
+
+
+.jose-container{
+  display: inline-block;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  margin-left: 50px;
+}
+
+.jose-role{
+  color: #F2E2CE;
+  font-style: normal;
+  font-size: 30px;
+  position: relative;
+  margin-bottom: 0;
+  margin-top: 10px;
+}
+
+.jose-container:hover .jose-role{
+  color: #C45210;
+  font-style: italic;
+}
+
+.jose-container:hover .jose-list{
+  opacity: 1;
+}
+
+
+.jose-list{
+  list-style-type: none;
+  margin-top: 0;
+  padding-top:0;
+  font-size: 25px;
+  opacity: 0;
+  color: #C45210;
+  font-style: italic;
+}
+
+.jose-divider-2{
+  border: none;
+  border-top: 2px solid;
+  padding-right: 5em;
+  padding-bottom: 0em;
+}
+
+/*Individ Elements CSS: Other Work*/
+
+.other-divider{
+  border: none;
+  border-top: 2px solid;
+  width: 70%;
+}
+
+.other-divider-2{
+  border: none;
+  border-top: 2px solid;
+  width: 80%;
+}
+
+.other-container{
+  display: inline-block;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 50px;
+}
+
+.other-role{
+  color: #F2E2CE;
+  font-style: normal;
+  font-size: 30px;
+  position: relative;
+  margin-bottom: 0;
+  margin-top: 20px;
+}
+
+.other-container:hover .other-role{
+  color: #C45210;
+  font-style: italic;
+}
+
+.other-container:hover .other-list{
+  opacity: 1;
+}
+
+
+.other-list{
+  list-style-type: none;
+  margin-top: 0;
+  padding-top:0;
+  font-size: 25px;
+  opacity: 0;
+  color: #C45210;
+  font-style: italic;
+}
+
+.music-caption{
+  font-size:12px;
+  margin-bottom: 10px;
+}
+
+/*Individ Elements CSS: About*/
+
+.bio{
+  padding-top: 0em;
+}
+
+.flex-container{
+  display: flex;
+  padding-bottom: 1em;
+}
+
+.flex-places{
+  flex: 1;
+}
+
+.map{
+  flex: 1;
+  margin-left: 30px;
+  margin-top:40px;
+}
+
+.map-caption{
+  font-size: 20px;
+  text-align: center;
+  width: 60%;
+}
+
+.map-caption-source{
+  font-size: 12px;
+  margin-left:90px;
+}
+
+h3{
+  padding-top: 0;
+  padding-bottom: 1em;
+  margin-left: 30px;
+  margin-right: 200px; 
+  line-height: 1;
+  text-align: center;
+}
+
+.about-divider{
+  border: none;
+  border-top: 2px solid;
+  width: 75%;
+}
+
